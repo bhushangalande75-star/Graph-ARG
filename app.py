@@ -1,4 +1,5 @@
 """
+**************Please create .env file which will have the API keys*********
 Gradio UI Application for RAG System.
 Provides interface for uploading PDFs and querying the knowledge base.
 """
@@ -282,4 +283,5 @@ if __name__ == "__main__":
         server_port=7860,        # Default Gradio port
         share=False,             # Set to True to create public link
         show_error=True
+
     )
